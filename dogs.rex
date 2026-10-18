@@ -6,15 +6,15 @@
 ::ATTRIBUTE Name
 
 ::METHOD Bark
-    SAY self~Name":" "Wuff Wuff" "-" self
+    SAY self~Name":" "Wuff" "-" self
 
 ::CLASS BigDog SUBCLASS Dog
 
 ::METHOD Bark
-    SAY self~Name":" "WUFFF! WUFFF!! WUFFF!!!" "-" self
+    SAY self~Name":" "WUFF" "-" self
     self~Bark:super
 
 ::CLASS LittleDog SUBCLASS Dog
 
 ::METHOD Bark
-    SAY self~Name":" "wuuf" "-" self
+    SAY self~Name":" "wuff" "-" self
