@@ -12,7 +12,6 @@
 
 ::METHOD Bark
     SAY self~Name":" "WUFF" "-" self
-    self~Bark:super
 
 ::CLASS LittleDog SUBCLASS Dog
 
